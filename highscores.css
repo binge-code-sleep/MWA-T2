@@ -1,0 +1,40 @@
+.score-entry {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 30px;
+  margin-bottom: 4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  /* Add cursor pointer for clickable effect */
+}
+
+#finalScore {
+  margin-top: 150px;
+}
+
+.score-details {
+  display: none;
+  /* Hide score details by default */
+  padding: 1rem;
+}
+
+.score-entry:hover {
+  transform: scale(1.025);
+}
+
+.player-name {
+  font-size: 1.6rem;
+}
+
+.score {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 2rem;
+  /* Adjust the margin-top for the button */
+}
